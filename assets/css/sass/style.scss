@@ -34,5 +34,8 @@ $la-font-path: '/wp-content/themes/evolvemhs/assets/fonts/line-awesome';
 @import 'node_modules/animate.css/animate';
 
 // Global
+@import 'global/typography';
+@import 'global/forms';
+@import 'global/backgrounds';
 
 // Pages
