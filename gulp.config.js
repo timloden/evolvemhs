@@ -1,5 +1,5 @@
 module.exports = {
-    projectURL: 'simple-pest.local',
+    projectURL: 'evolvemhs.local',
     productURL: './',
 
     // Style options.
