@@ -25,8 +25,8 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
     <div id="page" class="site">
-        <header class="header">
-            <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+        <header class="header bg-white">
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
                     <a class="navbar-brand" href="#">Navbar</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -36,20 +36,23 @@
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Specialties</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Groups</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
-                        </ul>
+                        <div class="d-flex flex-column ml-auto">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link font-weight-bold" href="#">Specialties</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link font-weight-bold" href="#">Groups</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link font-weight-bold" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link font-weight-bold" href="#">Contact</a>
+                                </li>
+                            </ul>
+                            <p class="mb-0 pl-2">(323) 379-3934 | nicolelevin@evolvemhs.com</p>
+                        </div>
                     </div>
                 </div>
             </nav>

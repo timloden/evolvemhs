@@ -14,75 +14,36 @@
 
 </div><!-- #content -->
 
-<footer class="site-footer border-top mt-5">
-    <div class="container pt-5 pb-4">
+<footer class="site-footer bg-primary">
+    <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-8">
-                <div class="d-flex">
-                    <div class="col-4 pl-0">
-                        <h6>Link Header</h6>
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="<?php echo site_url(); ?>">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="<?php echo site_url(); ?>">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="<?php echo site_url(); ?>">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="<?php echo site_url(); ?>">Link</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-4">
-                        <h6>Link Header</h6>
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="<?php echo site_url(); ?>">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="<?php echo site_url(); ?>">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="<?php echo site_url(); ?>">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="<?php echo site_url(); ?>">Link</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-4 pr-0">
-                        <h6>Link Header</h6>
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="<?php echo site_url(); ?>">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="<?php echo site_url(); ?>">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="<?php echo site_url(); ?>">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="<?php echo site_url(); ?>">Link</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-4">
-                <h6>Newsletter</h6>
-
+            <div class="col-12 text-center">
+                <ul class="nav justify-content-center py-5" style="font-size: 20px;">
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold text-white" href="#">Specialties</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold text-white" href="#">Groups</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold text-white" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+                <p class="mb-0 text-white font-weight-bold" style="font-size: 24px;">Nicole Levin</p>
+                <p class="mb-0 text-white font-weight-bold" style="font-size: 20px;">M.S., L.C.S.W., #92898</p>
+                <p class="mb-0 text-white py-4" style="font-size: 20px;">nicolelevin@evolvemhs.com | (323) 379-3934</p>
             </div>
         </div>
     </div>
-    <div class="copyright bg-primary">
+    <div class="copyright py-5">
         <div class="container">
-            <p class="text-white m-0 p-2 text-center">&copy; Starter Theme <?php echo date( 'Y' ); ?></p>
+            <p class="m-0 text-center text-white" style="font-size: 12px;">&copy; Evolve Mental Health Services
+                <?php echo date( 'Y' ); ?>
+            </p>
         </div>
-
     </div>
 </footer>
 </div><!-- #page -->
