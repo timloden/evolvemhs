@@ -33,8 +33,18 @@
                     </li>
                 </ul>
                 <p class="mb-0 text-white font-weight-bold" style="font-size: 24px;">Nicole Levin</p>
-                <p class="mb-0 text-white font-weight-bold" style="font-size: 20px;">M.S., L.C.S.W., #92898</p>
-                <p class="mb-0 text-white py-4" style="font-size: 20px;">nicolelevin@evolvemhs.com | (323) 379-3934</p>
+                <p class="mb-0 text-white font-weight-bold" style="font-size: 20px;">
+                    <?php echo get_field('license', 'option'); ?></p>
+
+                <p class="mb-0 text-white py-4" style="font-size: 20px;">
+                    <?php if (get_field('phone_number', 'option')) : ?>
+                    <?php echo '<a class="text-white" href="tel:' . get_field('phone_number', 'option') . '">' . get_field('phone_number', 'option') . '</a>'; ?>
+                    &nbsp; | &nbsp;
+                    <?php endif; ?>
+                    <?php if (get_field('phone_number', 'option')) : ?>
+                    <?php echo '<a class="text-white" href="mailto:' . get_field('email_address', 'option') . '">' . get_field('email_address', 'option') . '</a>'; ?>
+                    <?php endif; ?>
+                </p>
             </div>
         </div>
     </div>

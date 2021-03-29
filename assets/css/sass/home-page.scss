@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.home-contact-form {
+    #gform_fields_1 {
+        @extend .row;
+
+        label {
+            color: #858585;
+            font-size: 14px;
+        }
+
+        #field_1_2,
+        #field_1_3 {
+            @extend .col-12;
+            @extend .col-md-6;
+        }
+
+        #field_1_4 {
+            @extend .col-12;
+        }
+    }
+
+    #gform_submit_button_1 {
+        font-weight: 700;
+        width: 100%;
+        font-size: 20px;
+        background-color: $secondary;
+        border-color: $secondary;
+        padding: 15px 0;
+    }
+}

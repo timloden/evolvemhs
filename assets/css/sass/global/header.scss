@@ -10,6 +10,10 @@
     background-color: rgba(0, 0, 0, 0.25);
 }
 
+.logo-image {
+    max-width: 350px;
+}
+
 .header-categories {
     .dropdown-submenu {
         position: relative;
@@ -86,4 +90,8 @@
             }
         }
     }
+}
+
+.navbar-nav {
+    font-size: 26px;
 }

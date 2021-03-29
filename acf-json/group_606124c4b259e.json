@@ -466,9 +466,9 @@
         },
         {
             "key": "field_606128e49a9bf",
-            "label": "Content Description",
-            "name": "content_description",
-            "type": "textarea",
+            "label": "Contact Description",
+            "name": "contact_description",
+            "type": "wysiwyg",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -478,10 +478,10 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": "",
-            "maxlength": "",
-            "rows": "",
-            "new_lines": ""
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
         },
         {
             "key": "field_606128fc9a9c0",
@@ -539,5 +539,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1616980534
+    "modified": 1616988919
 }
