@@ -5,7 +5,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package starter-theme
+ * @package evolvemhs
  */
 
 // require 'plugin-update-checker/plugin-update-checker.php';

@@ -11,7 +11,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package starter-theme
+ * @package evolvemhs
  */
 
 get_header();

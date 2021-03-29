@@ -7,7 +7,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package starter-theme
+ * @package evolvemhs
  */
 
 ?>
