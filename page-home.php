@@ -208,6 +208,16 @@ get_header();
                     <?php echo '<a class="text-primary" href="mailto:' . get_field('email_address', 'option') . '">' . get_field('email_address', 'option') . '</a>'; ?>
                     <?php endif; ?>
                 </p>
+
+                <?php if (get_field('contact_image')) : 
+					$contact_image = get_field('contact_image');
+					?>
+                <div class="pb-5">
+                    <img class="img-fluid" src="<?php echo esc_url($contact_image['url']);?>"
+                        alt="<?php echo esc_url($contact_image['alt']);?>">
+                </div>
+                <?php endif; ?>
+                <p class="text-center font-weight-bold pb-3" style="font-size: 22px;">Send a message</p>
                 <?php gravity_form( 1, false, false, false, '', true, 12 ); ?>
                 <p class="text-center my-5"><?php echo esc_attr(get_field('pricing_information')); ?></p>
             </div>
