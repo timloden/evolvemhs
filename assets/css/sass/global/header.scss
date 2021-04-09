@@ -11,7 +11,13 @@
 }
 
 .logo-image {
-    max-width: 350px;
+    max-width: 200px;
+}
+
+@include media-breakpoint-up(lg) {
+    .logo-image {
+        max-width: 350px;
+    }
 }
 
 .header-categories {

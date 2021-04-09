@@ -2949,7 +2949,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,#cart-dropdown .dropdown-toggle,.h6{font-w
 .top-bar{font-size:12px}
 .bg-dark-50{background-color:rgba(0,0,0,0.5)}
 .bg-dark-25{background-color:rgba(0,0,0,0.25)}
-.logo-image{max-width:350px}
+.logo-image{max-width:200px}
 .header-categories .dropdown-submenu{position:relative}
 .header-categories .dropdown-submenu a:after{display:inline-block;margin-left:1em;content:'\f105';font-family:'Line Awesome Free';font-weight:900}
 .header-categories .dropdown-submenu ul.children{top:0;left:100%;margin-top:-1px;display:none}
@@ -2963,6 +2963,8 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,#cart-dropdown .dropdown-toggle,.h6{font-w
 #mobile-categories .dropdown-submenu a:after{float:right}
 .navbar-nav{font-size:26px}
 html{scroll-behavior:smooth}
+.home-hero-title{font-size:22px}
+.hero-tagline{font-size:18px}
 .home-contact-form #gform_fields_1 label{color:#858585;font-size:14px}
 .home-contact-form #gform_submit_button_1{font-weight:700;width:100%;font-size:20px;background-color:#75a899;border-color:#75a899;padding:15px 0}
 @media(prefers-reduced-motion:reduce){.form-control,.gform_wrapper input[type='email'],.gform_wrapper input[type='date'],.gform_wrapper input[type='datetime'],.gform_wrapper input[type='datetime-local'],.gform_wrapper input[type='month'],.gform_wrapper input[type='number'],.gform_wrapper input[type='password'],.gform_wrapper input[type='search'],.gform_wrapper input[type='tel'],.gform_wrapper input[type='text'],.gform_wrapper input[type='time'],.gform_wrapper input[type='week'],.gform_wrapper input[type='url'],.gform_wrapper select,.gform_wrapper textarea{-webkit-transition:none;transition:none}
@@ -3655,6 +3657,9 @@ html:not(.no-js) [data-aos=flip-down].aos-animate{-webkit-transform:perspective(
 .text-lg-left{text-align:left !important}
 .text-lg-right{text-align:right !important}
 .text-lg-center{text-align:center !important}
+.logo-image{max-width:350px}
+.home-hero-title{font-size:30px}
+.hero-tagline{font-size:20px}
 }@media(min-width:1200px){.container,.container-sm,.container-md,.container-lg,.container-xl{max-width:1140px}
 .col-xl{-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}
 .row-cols-xl-1>*{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}

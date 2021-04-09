@@ -14,19 +14,22 @@ get_header();
 <section class="section background-purple-grad pt-5">
     <div class="container">
         <div class="row align-items-center justify-content-lg-between">
-            <div class="col-12 col-lg-4 text-center text-lg-left">
-                <?php if (get_field('hero_above_title')) : ?>
-                <p class="mb-0" style="font-size: 16px;"><?php echo esc_attr(get_field('hero_above_title')); ?></p>
-                <?php endif; ?>
+            <div class="col-12 col-lg-5 text-center text-lg-left">
+
                 <?php if (get_field('hero_title')) : ?>
-                <h1 style="font-size: 44px;"><?php echo esc_attr(get_field('hero_title')); ?></h1>
-                <?php endif; ?>
-                <?php if (get_field('hero_subtitle')) : ?>
-                <p class="mb-2" style="font-size: 18px;"><?php echo esc_attr(get_field('hero_subtitle')); ?></p>
+                <h1 class="font-weight-normal font-italic home-hero-title">
+
+                    "<?php echo esc_attr(get_field('hero_title')); ?>"
+
+                </h1>
                 <?php endif; ?>
                 <?php if (get_field('hero_tagline')) : ?>
-                <p class="mb-0" style="font-size: 18px;"><?php echo esc_attr(get_field('hero_tagline')); ?></p>
+                <p class="mt-4 text-primary font-weight-bold hero-tagline" style="font-size: 20px;">
+                    <?php echo esc_attr(get_field('hero_tagline')); ?>
+                </p>
                 <?php endif; ?>
+
+
             </div>
             <div class="col-12 col-lg-6 mt-5 mt-lg-0">
                 <?php 
@@ -63,6 +66,10 @@ get_header();
 
                 <?php if (get_field('about_content')) : ?>
                 <?php echo the_field('about_content'); ?>
+                <?php endif; ?>
+                <?php if (get_field('hero_subtitle')) : ?>
+                <p class="mb-3 mb-lg-0 font-italic text-primary" style="font-size: 20px;">
+                    <?php echo esc_attr(get_field('hero_subtitle')); ?></p>
                 <?php endif; ?>
             </div>
         </div>

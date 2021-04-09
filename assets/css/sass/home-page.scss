@@ -2,6 +2,24 @@ html {
     scroll-behavior: smooth;
 }
 
+.home-hero-title {
+    font-size: 22px;
+}
+
+.hero-tagline {
+    font-size: 18px;
+}
+
+@include media-breakpoint-up(lg) {
+    .home-hero-title {
+        font-size: 30px;
+    }
+
+    .hero-tagline {
+        font-size: 20px;
+    }
+}
+
 .home-contact-form {
     #gform_fields_1 {
         @extend .row;
